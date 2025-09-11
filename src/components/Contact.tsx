@@ -1,5 +1,5 @@
 import {Card, CardContent} from "@/components/ui/card";
-import {MailIcon, LinkedInIcon, LocationIcon, GitHubIcon, StackOverflowIcon} from "@/components/icons/simple-icons";
+import {MailIcon, LinkedInIcon, LocationIcon, GitHubIcon, StackOverflowIcon, DevTo} from "@/components/icons/simple-icons";
 
 const Contact = () => {
     const contactInfo = [
@@ -20,20 +20,26 @@ const Contact = () => {
         {
             icon: GitHubIcon,
             label: "GitHub",
-            href: "https://github.com",
+            href: "https://github.com/babak271",
             color: "hover:text-foreground"
         },
         {
             icon: LinkedInIcon,
             label: "LinkedIn",
-            href: "https://linkedin.com",
+            href: "https://www.linkedin.com/in/seyed-babak-ashrafi/",
             color: "hover:text-primary"
         },
         {
             icon: StackOverflowIcon,
             label: "StackOverflow",
-            href: "https://stackoverflow.com",
+            href: "https://stackoverflow.com/users/6212294/babak-ashrafi",
             color: "hover:text-orange-500"
+        },
+        {
+            icon: DevTo,
+            label: "Dev",
+            href: "https://dev.to/babak271",
+            color: "hover:text-black"
         }
     ];
     return (
@@ -49,31 +55,8 @@ const Contact = () => {
                     <Card className="bg-gradient-card shadow-card border-0">
                         <CardContent className="p-8">
                             <h3 className="text-2xl font-semibold mb-6 text-foreground">Contact Information</h3>
-                            <div className="space-y-4">
-                                {contactInfo.map((item, index) => (
-                                    <div key={index} className="flex items-center group">
-                                        <div
-                                            className="bg-primary/10 p-3 rounded-full mr-4 group-hover:bg-primary/20 transition-smooth">
-                                            <item.icon/>
-                                        </div>
-                                        <div>
-                                            <p className="font-medium text-foreground">{item.label}</p>
-                                            {item.href ? (
-                                                <a
-                                                    href={item.href}
-                                                    className="text-muted-foreground hover:text-primary transition-smooth"
-                                                >
-                                                    {item.value}
-                                                </a>
-                                            ) : (
-                                                <p className="text-muted-foreground">{item.value}</p>
-                                            )}
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
+
                             <div className="mt-8 pt-8 border-t border-border">
-                                <h4 className="font-semibold mb-4 text-foreground">Connect Online</h4>
                                 <div className="flex gap-4 justify-center">
                                     {socialLinks.map((link, index) => (
                                         <a

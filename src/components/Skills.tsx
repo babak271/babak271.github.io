@@ -5,22 +5,22 @@ const Skills = () => {
     const skillCategories = [
         {
             title: "Backend Development",
-            skills: ["PHP", "Python", "Laravel", "Symfony", "Django", "FastAPI", "Node.js"],
+            skills: ["PHP", "Python", "Laravel", "Symfony", "Django", "FastAPI"],
             color: "bg-primary text-primary-foreground"
         },
         {
             title: "Frontend Development",
-            skills: ["JavaScript", "TypeScript", "React", "Vue.js", "HTML5", "CSS3", "Tailwind CSS"],
+            skills: ["JavaScript", "TypeScript", "AlpineJs", "HTMX", "HTML5", "CSS3", "Tailwind", "Cypress"],
             color: "bg-accent text-accent-foreground"
         },
         {
             title: "Database & DevOps",
-            skills: ["MySQL", "PostgreSQL", "MongoDB", "Redis", "Docker", "AWS", "Linux"],
+            skills: ["MySQL", "PostgreSQL", "Docker", "Gitlab CI/CD", "Redis", "GCP", "Linux"],
             color: "bg-secondary text-secondary-foreground"
         },
         {
             title: "Tools & Practices",
-            skills: ["Git", "RESTful APIs", "GraphQL", "Testing", "CI/CD", "Agile", "Code Review"],
+            skills: ["RESTful APIs", "Bash/Fish", "Git", "Pair Programming", "Agile", "Code Review", "Testing"],
             color: "bg-muted text-muted-foreground"
         }
     ];

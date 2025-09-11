@@ -28,25 +28,16 @@ const Hero = () => {
                     Building scalable, efficient solutions that drive business success.
                 </p>
 
-                <div className="flex flex-wrap justify-center gap-4 mb-8">
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                        <Button variant="default" size="lg" className="shadow-elegant transition-smooth hover:shadow-card">
-                            <Mail className="mr-2 h-4 w-4" />
-                            Contact Me
-                        </Button>
-                    </a>
-                </div>
-
                 <div className="flex justify-center gap-6">
                     <a
-                        href="#"
+                        href="https://github.com/babak271"
                         className="text-muted-foreground hover:text-primary transition-smooth p-2 hover:bg-accent/10 rounded-full"
                         aria-label="GitHub"
                     >
                         <div className="h-6 w-6"><GitHubIcon/></div>
                     </a>
                     <a
-                        href="#"
+                        href="https://www.linkedin.com/in/seyed-babak-ashrafi/"
                         className="text-muted-foreground hover:text-primary transition-smooth p-2 hover:bg-accent/10 rounded-full"
                         aria-label="LinkedIn"
                     >

@@ -5,28 +5,44 @@ import { Calendar, MapPin } from "lucide-react";
 const Experience = () => {
     const experiences = [
         {
-            title: "Senior Web Developer",
-            company: "Tech Solutions Inc.",
-            location: "Remote",
-            period: "2021 - Present",
-            description: "Lead backend development using PHP and Python, architecting scalable microservices and mentoring junior developers. Improved system performance by 40% and reduced deployment time by 60%.",
-            technologies: ["PHP", "Laravel", "Python", "Django", "MySQL", "Docker", "AWS"]
+            title: "Software Engineer",
+            company: "Metro Markets GmbH",
+            location: "Düsseldorf / Germany",
+            period: "2023 - Present",
+            description: "Doing software engineering with a focus on warehouse management systems, specializing in architecting and maintaining testing strategies, and developing scalable microservices and integrations. Led critical initiatives, including a major database upgrade with zero downtime, and enhanced team productivity through mentoring and new applications development.",
+            technologies: ["Python", "PHP", "GCP", "Postgres", "MySQL", "Docker", "CI/CD", "Symfony"]
         },
         {
-            title: "Full Stack Developer",
-            company: "Digital Agency Pro",
-            location: "New York, NY",
-            period: "2019 - 2021",
-            description: "Developed custom web applications and e-commerce solutions for enterprise clients. Collaborated with cross-functional teams to deliver projects on time and under budget.",
-            technologies: ["PHP", "Symfony", "JavaScript", "React", "PostgreSQL", "Redis"]
+            title: "Backend Developer",
+            company: "NAK",
+            location: "Tehran / Iran",
+            period: "2021 - 2023",
+            description: "Specializing in creating and optimizing web applications and reporting systems for large-scale data. Expertise includes enhancing system performance through code refactoring and database optimization, along with building predictive algorithms and maintaining CI/CD pipelines.",
+            technologies: ["PHP", "Laravel", "Python", "Redis", "Mysql", "Docker", "CI/CD"]
         },
         {
-            title: "Web Developer",
-            company: "StartupXYZ",
-            location: "San Francisco, CA",
-            period: "2017 - 2019",
-            description: "Built and maintained web applications using modern frameworks. Implemented responsive designs and optimized database queries for better performance.",
-            technologies: ["PHP", "CodeIgniter", "Python", "Flask", "MySQL", "jQuery"]
+            title: "Backend Developer",
+            company: "Shazin",
+            location: "Tehran / Iran",
+            period: "2020 - 2021",
+            description: "Expertise in creating and managing e-commerce and e-learning platforms, specializing in multimedia and secure content delivery. Proficient in integrating complex technologies, including 3D model rendering, video streaming with encrypted HLS, and LMS integrations.",
+            technologies: ["PHP", "Laravel", "Python", "MySQL", "Postgres", "Django"]
+        },
+        {
+            title: "Backend Developer",
+            company: "Magma Energy",
+            location: "Tehran / Iran",
+            period: "2018 - 2019",
+            description: "Specialist in data extraction and classification systems, with a strong focus on the petroleum industry. Expertise includes developing end-to-end solutions for geological and drilling data and implementing OCR technology for efficient data extraction from PDFs.",
+            technologies: ["Python", "Mysql", "VBA"]
+        },
+        {
+            title: "Developer",
+            company: "Herfeh Honarmand",
+            location: "Tehran / Iran",
+            period: "2016 - 2018",
+            description: "A developer with a focus on historical and cultural data, specializing in developing and integrating machine learning models for the classification of historical artifacts. Experienced in data acquisition and analysis from major institutions like the Metropolitan Museum.",
+            technologies: ["Python", "Mysql", "KNN", "SVM"]
         }
     ];
 
